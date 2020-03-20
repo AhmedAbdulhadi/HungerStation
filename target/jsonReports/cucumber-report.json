@@ -1,0 +1,272 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Adding new pet",
+        "description": "",
+        "id": "high-level-of-testing-for-pets-model;adding-new-pet",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 733545693,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Pet Request payload",
+            "match": {
+              "location": "PetsSteps.add_pet_payload()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1695038211,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User wants to call \"addNewPet\" with http method \"POST\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "addNewPet",
+                  "offset": 20
+                },
+                {
+                  "val": "POST",
+                  "offset": 49
+                }
+              ],
+              "location": "PetsSteps.user_wants_to_call_request_with_httpMethod(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 330325752,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 22
+                }
+              ],
+              "location": "PetsSteps.status_code_should_be_200(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Update pet",
+        "description": "",
+        "id": "high-level-of-testing-for-pets-model;update-pet",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2436969,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Pet Request payload",
+            "match": {
+              "location": "PetsSteps.add_pet_payload()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 836815859,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User wants to call \"updatePet\" with http method \"PUT\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "updatePet",
+                  "offset": 20
+                },
+                {
+                  "val": "PUT",
+                  "offset": 49
+                }
+              ],
+              "location": "PetsSteps.user_wants_to_call_request_with_httpMethod(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10714968,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 22
+                }
+              ],
+              "location": "PetsSteps.status_code_should_be_200(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Get pet by status",
+        "description": "",
+        "id": "high-level-of-testing-for-pets-model;get-pet-by-status",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5752551,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Pet status is sold",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sold",
+                  "offset": 14
+                }
+              ],
+              "location": "PetsSteps.get_pet_by_status(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 850015082,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User wants to call \"getPetByStatus\" with http method \"GET\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "getPetByStatus",
+                  "offset": 20
+                },
+                {
+                  "val": "GET",
+                  "offset": 54
+                }
+              ],
+              "location": "PetsSteps.user_wants_to_call_request_with_httpMethod(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32037629,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 22
+                }
+              ],
+              "location": "PetsSteps.status_code_should_be_200(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Adding new pet",
+        "description": "",
+        "id": "high-level-of-testing-for-pets-model;adding-new-pet",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1494207,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Pet Request Param ID is 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 24
+                }
+              ],
+              "location": "PetsSteps.pet_request_param(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 836089144,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User wants to call \"getPetById\" with http method \"GET\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "getPetById",
+                  "offset": 20
+                },
+                {
+                  "val": "GET",
+                  "offset": 50
+                }
+              ],
+              "location": "PetsSteps.user_wants_to_call_request_with_httpMethod(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8920855,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 22
+                }
+              ],
+              "location": "PetsSteps.status_code_should_be_200(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "High level of testing for Pets Model",
+    "description": "",
+    "id": "high-level-of-testing-for-pets-model",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/Pets.feature"
+  }
+]

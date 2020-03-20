@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 24, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 7.068 sec <<< FAILURE!
+And verify created name is incorrectName using getPlaceAPI(| Rahaf | English |)  Time elapsed: 0.003 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[incorrectName]> but was:<[Rahaf]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at steps.googlePlaceSteps.verify_create_name_is(googlePlaceSteps.java:115)
+	at ✽.And verify created name is incorrectName using getPlaceAPI(src/test/java/features/googlePlace.feature:24)
+
+| Rahaf | English |  Time elapsed: 0.003 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[incorrectName]> but was:<[Rahaf]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at steps.googlePlaceSteps.verify_create_name_is(googlePlaceSteps.java:115)
+	at ✽.And verify created name is incorrectName using getPlaceAPI(src/test/java/features/googlePlace.feature:24)
+
+And verify created name is incorrectName using getPlaceAPI(| Fayroz | Arabic |)  Time elapsed: 0.001 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[incorrectName]> but was:<[Fayroz]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at steps.googlePlaceSteps.verify_create_name_is(googlePlaceSteps.java:115)
+	at ✽.And verify created name is incorrectName using getPlaceAPI(src/test/java/features/googlePlace.feature:24)
+
+| Fayroz | Arabic |  Time elapsed: 0.001 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[incorrectName]> but was:<[Fayroz]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at steps.googlePlaceSteps.verify_create_name_is(googlePlaceSteps.java:115)
+	at ✽.And verify created name is incorrectName using getPlaceAPI(src/test/java/features/googlePlace.feature:24)
+

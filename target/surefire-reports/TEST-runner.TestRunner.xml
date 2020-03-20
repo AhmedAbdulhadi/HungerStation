@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="24" failures="4" name="runner.TestRunner" time="0.01" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/ahmedwajieh/eclipse-workspace/rest"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="JO"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/ahmedwajieh/eclipse-workspace/rest"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/6f/41wb13bx6wd6s1yrnjx0bvv00000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/ahmedwajieh/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/MAVEN_HOME/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/ahmedwajieh/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/Users/ahmedwajieh/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/MAVEN_HOME/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.14.6"/>
+    <property name="library.jansi.path" value="/Users/ahmedwajieh/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/MAVEN_HOME/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/ahmedwajieh"/>
+    <property name="user.timezone" value="Asia/Amman"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="ahmedwajieh"/>
+    <property name="java.class.path" value="/Users/ahmedwajieh/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/MAVEN_HOME/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_221"/>
+    <property name="java.ext.dirs" value="/Users/ahmedwajieh/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/ahmedwajieh/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/MAVEN_HOME"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="Scenario: Testing add place api" name="Given Add place payload nimer arabic" time="0.002"/>
+  <testcase classname="Scenario: Testing add place api" name="When User wants to call &quot;AddPlaceAPI&quot; with http method &quot;POST&quot;" time="0"/>
+  <testcase classname="Scenario: Testing add place api" name="Then Status code should be 200" time="0"/>
+  <testcase classname="Scenario: Testing add place api" name="And &quot;status&quot; is response body should equal OK" time="0"/>
+  <testcase classname="Scenario: Testing add place api" name="And &quot;scope&quot; is response body should equal APP" time="0"/>
+  <testcase classname="Scenario: Testing add place api" name="Scenario: Testing add place api" time="0"/>
+  <testcase classname="| Rahaf | English |" name="Given Add place payload Rahaf English" time="0"/>
+  <testcase classname="| Rahaf | English |" name="When User wants to call &quot;AddPlaceAPI&quot; with http method &quot;POST&quot;" time="0"/>
+  <testcase classname="| Rahaf | English |" name="Then Status code should be 200" time="0"/>
+  <testcase classname="| Rahaf | English |" name="And &quot;status&quot; is response body should equal OK" time="0"/>
+  <testcase classname="| Rahaf | English |" name="And &quot;scope&quot; is response body should equal APP" time="0"/>
+  <testcase classname="| Rahaf | English |" name="And verify created name is incorrectName using getPlaceAPI" time="0.003">
+    <failure message="expected:&lt;[incorrectName]&gt; but was:&lt;[Rahaf]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[incorrectName]&gt; but was:&lt;[Rahaf]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at steps.googlePlaceSteps.verify_create_name_is(googlePlaceSteps.java:115)
+	at ✽.And verify created name is incorrectName using getPlaceAPI(src/test/java/features/googlePlace.feature:24)
+</failure>
+    <system-out>/get/json
+GET
+</system-out>
+  </testcase>
+  <testcase classname="| Rahaf | English |" name="| Rahaf | English |" time="0.003">
+    <failure message="expected:&lt;[incorrectName]&gt; but was:&lt;[Rahaf]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[incorrectName]&gt; but was:&lt;[Rahaf]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at steps.googlePlaceSteps.verify_create_name_is(googlePlaceSteps.java:115)
+	at ✽.And verify created name is incorrectName using getPlaceAPI(src/test/java/features/googlePlace.feature:24)
+</failure>
+  </testcase>
+  <testcase classname="| Fayroz | Arabic |" name="Given Add place payload Fayroz Arabic" time="0"/>
+  <testcase classname="| Fayroz | Arabic |" name="When User wants to call &quot;AddPlaceAPI&quot; with http method &quot;POST&quot;" time="0"/>
+  <testcase classname="| Fayroz | Arabic |" name="Then Status code should be 200" time="0"/>
+  <testcase classname="| Fayroz | Arabic |" name="And &quot;status&quot; is response body should equal OK" time="0"/>
+  <testcase classname="| Fayroz | Arabic |" name="And &quot;scope&quot; is response body should equal APP" time="0"/>
+  <testcase classname="| Fayroz | Arabic |" name="And verify created name is incorrectName using getPlaceAPI" time="0.001">
+    <failure message="expected:&lt;[incorrectName]&gt; but was:&lt;[Fayroz]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[incorrectName]&gt; but was:&lt;[Fayroz]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at steps.googlePlaceSteps.verify_create_name_is(googlePlaceSteps.java:115)
+	at ✽.And verify created name is incorrectName using getPlaceAPI(src/test/java/features/googlePlace.feature:24)
+</failure>
+    <system-out>/get/json
+GET
+</system-out>
+  </testcase>
+  <testcase classname="| Fayroz | Arabic |" name="| Fayroz | Arabic |" time="0.001">
+    <failure message="expected:&lt;[incorrectName]&gt; but was:&lt;[Fayroz]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[incorrectName]&gt; but was:&lt;[Fayroz]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at steps.googlePlaceSteps.verify_create_name_is(googlePlaceSteps.java:115)
+	at ✽.And verify created name is incorrectName using getPlaceAPI(src/test/java/features/googlePlace.feature:24)
+</failure>
+  </testcase>
+  <testcase classname="Scenario: Delete created place" name="Given Delete created place payload" time="0"/>
+  <testcase classname="Scenario: Delete created place" name="When User wants to call &quot;deletePlaceAPI&quot; with http method &quot;DELETE&quot;" time="0"/>
+  <testcase classname="Scenario: Delete created place" name="Then Status code should be 200" time="0"/>
+  <testcase classname="Scenario: Delete created place" name="Scenario: Delete created place" time="0"/>
+</testsuite>

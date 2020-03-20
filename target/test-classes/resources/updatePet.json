@@ -1,0 +1,18 @@
+{
+  "id": 1311,
+  "category": {
+    "id": 3,
+    "name": "Charly"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "https://images.com/image.png"
+  ],
+  "tags": [
+    {
+      "id": 2,
+      "name": "tag1"
+    }
+  ],
+  "status": "sold"
+}
